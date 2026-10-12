@@ -1,0 +1,26 @@
+Job_ID,Job_Title,Experience_Years,Education,Python,NumPy,Pandas,Scikit_Learn,TensorFlow,PyTorch,SQL,EDA,Data_Visualization,Cloud,Salary_LPA
+J001,AI/ML Engineer,2,Bachelors,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,AWS,7.5
+J002,Data Scientist,3,Masters,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Azure,10.2
+J003,Data Analyst,1,Bachelors,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,,5.2
+J004,ML Engineer,4,Masters,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,AWS,13.5
+J005,Data Scientist,2,Masters,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,GCP,9.1
+J006,AI Engineer,5,Bachelors,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,AWS,15.8
+J007,Data Analyst,2,Bachelors,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,,6.1
+J008,ML Engineer,3,Masters,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Azure,11.7
+J009,AI/ML Engineer,1,Bachelors,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,AWS,6.8
+J010,Data Scientist,6,PhD,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,GCP,19.5
+J011,Data Analyst,3,Bachelors,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,,7.4
+J012,AI Engineer,4,Masters,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,AWS,14.2
+J013,ML Engineer,2,Bachelors,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Azure,9.4
+J014,Data Scientist,5,Masters,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,AWS,16.7
+J015,Data Analyst,1,Bachelors,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,,4.8
+J016,AI Engineer,3,Masters,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,GCP,12.8
+J017,ML Engineer,7,Masters,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,AWS,21.0
+J018,Data Scientist,4,Masters,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Azure,14.9
+J019,Data Analyst,2,Bachelors,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,,6.5
+J020,AI/ML Engineer,3,Bachelors,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,AWS,11.2
+J021,ML Engineer,5,Masters,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,GCP,17.3
+J022,Data Scientist,2,Masters,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Azure,9.8
+J023,Data Analyst,4,Bachelors,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,,8.2
+J024,AI Engineer,6,Masters,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,AWS,18.4
+J025,ML Engineer,1,Bachelors,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Azure,7.1

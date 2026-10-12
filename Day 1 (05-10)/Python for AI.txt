@@ -1,0 +1,385 @@
+1. Import Libraries
+
+import numpy as np
+import pandas as pd
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+2. Load the Dataset
+
+from google.colab import files
+
+uploaded = files.upload()
+
+df = pd.read_csv("AI_Python_Refresher_Dataset.csv")
+
+df.head()
+
+If the file is already available in Colab:
+
+df = pd.read_csv("/content/AI_Python_Refresher_Dataset.csv")
+
+
+3. Understand the Dataset
+
+Number of rows and columns
+
+print("Rows:", df.shape[0])
+print("Columns:", df.shape[1])
+
+First 5 records
+df.head()
+
+Last 5 records
+df.tail()
+
+4. Pandas Data Types
+
+This is an important Python-for-AI refresher concept.
+
+df.dtypes
+
+You can also use:
+
+df.info()
+
+Students should understand:
+
+int64     → integer
+float64   → decimal number
+object    → text/category
+
+For example:
+
+print(df["Experience_Years"].dtype)
+print(df["Salary_LPA"].dtype)
+print(df["Job_Title"].dtype)
+5. Select Columns
+One column
+df["Job_Title"]
+Multiple columns
+df[
+    [
+        "Job_Title",
+        "Experience_Years",
+        "Python",
+        "NumPy",
+        "Pandas"
+    ]
+]
+6. NumPy Practice
+
+Let's extract salary values.
+
+salary = df["Salary_LPA"].to_numpy()
+
+print(salary)
+
+Now use NumPy:
+
+print("Mean Salary:", np.mean(salary))
+print("Maximum Salary:", np.max(salary))
+print("Minimum Salary:", np.min(salary))
+print("Median Salary:", np.median(salary))
+print("Standard Deviation:", np.std(salary))
+
+NumPy challenge
+
+Calculate the following using NumPy
+
+print("25th Percentile:", np.percentile(salary, 25))
+print("75th Percentile:", np.percentile(salary, 75))
+7. Pandas Statistical Analysis
+df.describe()
+
+For specific columns:
+
+df[
+    [
+        "Experience_Years",
+        "Salary_LPA"
+    ]
+].describe()
+8. Missing Value Analysis
+df.isnull().sum()
+
+You will notice missing values in the Cloud column because "None" was interpreted as a missing value.
+
+Percentage of missing data
+missing_percentage = (
+    df.isnull().sum() / len(df)
+) * 100
+
+missing_percentage
+
+9. Handle Missing Values
+
+For the Cloud column, we can replace missing values with "Not Specified".
+
+df["Cloud"] = df["Cloud"].fillna("Not Specified")
+
+Check again:
+
+df.isnull().sum()
+10. Duplicate Check
+print("Duplicate rows:", df.duplicated().sum())
+
+Remove duplicates if necessary:
+
+df = df.drop_duplicates()
+11. Categorical Data
+
+Find unique job titles:
+
+df["Job_Title"].unique()
+
+Count each job:
+
+df["Job_Title"].value_counts()
+
+This is extremely useful in EDA.
+
+12. EDA — Job Distribution
+plt.figure(figsize=(10, 5))
+
+sns.countplot(
+    data=df,
+    x="Job_Title"
+)
+
+plt.title("Distribution of AI/ML Job Roles")
+plt.xlabel("Job Role")
+plt.ylabel("Number of Jobs")
+
+plt.xticks(rotation=30)
+
+plt.show()
+
+13. Python Skill Requirement
+
+python_count = df["Python"].value_counts()
+
+print(python_count)
+
+Visualize:
+
+plt.figure(figsize=(6, 5))
+
+sns.countplot(
+    data=df,
+    x="Python"
+)
+
+plt.title("Python Requirement in AI/ML Jobs")
+
+plt.show()
+14. NumPy vs Pandas Requirement
+skills = ["Python", "NumPy", "Pandas", "Scikit_Learn"]
+
+skill_counts = {}
+
+for skill in skills:
+    skill_counts[skill] = (df[skill] == "Yes").sum()
+
+skill_counts
+
+Convert to DataFrame:
+
+skill_df = pd.DataFrame(
+    list(skill_counts.items()),
+    columns=["Skill", "Job_Count"]
+)
+
+skill_df
+
+Visualize:
+
+plt.figure(figsize=(9, 5))
+
+sns.barplot(
+    data=skill_df,
+    x="Skill",
+    y="Job_Count"
+)
+
+plt.title("AI/ML Skills Required Across Job Records")
+
+plt.show()
+15. Salary Distribution
+plt.figure(figsize=(8, 5))
+
+sns.histplot(
+    data=df,
+    x="Salary_LPA",
+    bins=10,
+    kde=True
+)
+
+plt.title("Salary Distribution")
+plt.xlabel("Salary (LPA)")
+
+plt.show()
+16. Experience vs Salary
+
+This is a great EDA example.
+
+plt.figure(figsize=(8, 5))
+
+sns.scatterplot(
+    data=df,
+    x="Experience_Years",
+    y="Salary_LPA",
+    hue="Job_Title",
+    s=100
+)
+
+plt.title("Experience vs Salary")
+plt.xlabel("Experience (Years)")
+plt.ylabel("Salary (LPA)")
+
+plt.show()
+
+Students can investigate:
+
+Does salary generally increase with experience?
+
+17. Salary by Job Role
+plt.figure(figsize=(10, 5))
+
+sns.boxplot(
+    data=df,
+    x="Job_Title",
+    y="Salary_LPA"
+)
+
+plt.title("Salary Distribution by Job Role")
+
+plt.xticks(rotation=30)
+
+plt.show()
+18. Education vs Salary
+plt.figure(figsize=(7, 5))
+
+sns.boxplot(
+    data=df,
+    x="Education",
+    y="Salary_LPA"
+)
+
+plt.title("Education vs Salary")
+
+plt.show()
+19. EDA Correlation
+
+First select numerical columns:
+
+numeric_columns = df.select_dtypes(
+    include=np.number
+)
+
+numeric_columns.head()
+
+Correlation:
+
+correlation = numeric_columns.corr()
+
+correlation
+
+Heatmap:
+
+plt.figure(figsize=(8, 6))
+
+sns.heatmap(
+    correlation,
+    annot=True,
+    cmap="coolwarm",
+    fmt=".2f"
+)
+
+plt.title("Correlation Heatmap")
+
+plt.show()
+
+20. Pandas GroupBy
+
+Average salary by job role
+df.groupby("Job_Title")["Salary_LPA"].mean()
+Average experience by job role
+df.groupby("Job_Title")["Experience_Years"].mean()
+Multiple statistics
+df.groupby("Job_Title")["Salary_LPA"].agg(
+    ["mean", "min", "max", "median"]
+)
+
+21. Find High-Salary Jobs
+high_salary = df[
+    df["Salary_LPA"] > 12
+]
+
+high_salary
+22. Find Experienced Candidates/Jobs
+experienced = df[
+    df["Experience_Years"] >= 5
+]
+
+experienced
+
+23. Combine Conditions
+df[
+    (df["Experience_Years"] >= 3) &
+    (df["Python"] == "Yes") &
+    (df["Pandas"] == "Yes")
+]
+
+This demonstrates the type of filtering students will frequently use in real datasets.
+
+24. Mini EDA Dashboard
+
+Finally, let students create a small dashboard:
+
+fig, axes = plt.subplots(2, 2, figsize=(14, 10))
+
+ 1. Job roles
+sns.countplot(
+    data=df,
+    x="Job_Title",
+    ax=axes[0, 0]
+)
+
+axes[0, 0].set_title("Job Roles")
+axes[0, 0].tick_params(axis="x", rotation=30)
+
+2. Salary
+sns.histplot(
+    data=df,
+    x="Salary_LPA",
+    kde=True,
+    ax=axes[0, 1]
+)
+
+axes[0, 1].set_title("Salary Distribution")
+
+3. Experience vs Salary
+sns.scatterplot(
+    data=df,
+    x="Experience_Years",
+    y="Salary_LPA",
+    hue="Job_Title",
+    ax=axes[1, 0]
+)
+
+axes[1, 0].set_title("Experience vs Salary")
+
+ 4. Education vs Salary
+sns.boxplot(
+    data=df,
+    x="Education",
+    y="Salary_LPA",
+    ax=axes[1, 1]
+)
+
+axes[1, 1].set_title("Education vs Salary")
+
+plt.tight_layout()
+plt.show()
