@@ -61,34 +61,6 @@ My goal is to strengthen my understanding of AI concepts by implementing them th
 - Exploring automation with n8n
 - Understanding practical applications of AI-powered automation
 
-## 🛠️ Hands-On Projects
-
-### 1. AI Language Translator
-A multilingual translation application using pretrained language models from Hugging Face.
-
-**Key concepts:** NLP, Transformers, pretrained models, Gradio.
-
-### 2. AI Image Caption Generator
-An AI application that generates descriptive captions for uploaded images.
-
-**Key concepts:** Computer Vision, image captioning, pretrained AI models.
-
-### 3. Briefly.AI — Intelligent Text Summarization
-A text summarization application that converts long articles and documents into concise summaries.
-
-**Features:**
-- Adjustable summary length
-- AI-generated summaries
-- Summary statistics
-- PDF download
-
-**Key concepts:** NLP, Transformers, Hugging Face, Gradio, PDF generation.
-
-### 4. AI Chatbot
-A conversational AI application designed to respond to user messages.
-
-**Key concepts:** Conversational AI, NLP, prompt design, and language models.
-
 ## 📂 Repository Structure
 
 ```text
@@ -112,11 +84,7 @@ GenAI-Lab/
 │   ├── Language translation
 │   ├── Image captioning
 │   └── AI chatbot
-└── Project/
-    ├── AI Translator
-    ├── Image Caption Generator
-    ├── Text Summarization
-    └── AI Chatbot
+
 ```
 
 *The folder names above illustrate the organization; refer to the actual repository for the exact filenames and day-wise structure.*
@@ -147,12 +115,3 @@ This repository is a continuous record of my learning process. It includes pract
 
 I believe in **learning by building, experimenting, and improving every day.** 🌱
 
-## 🤝 Connect
-
-GitHub: [@DilliRani2](https://github.com/DilliRani2)
-
-⭐ If you find this repository useful, feel free to explore the code and follow my learning journey!
-
----
-
-*Built with curiosity, consistency, and a passion for Artificial Intelligence.* 💙
