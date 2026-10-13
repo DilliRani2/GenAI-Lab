@@ -2,95 +2,113 @@
 
 Welcome to **GenAI-Lab!** 🚀
 
-This repository documents my learning journey in **Artificial Intelligence, Machine Learning, Deep Learning, and Generative AI**. It contains daily practice notebooks, coding exercises, dataset exploration, experiments, and notes from my training.
+This repository documents my hands-on learning journey in **Python, Data Analysis, Machine Learning, Deep Learning, and Generative AI**. It contains daily practice notebooks, datasets, student learning materials, experiments, and AI application projects.
 
-My goal is to strengthen my understanding of AI concepts through hands-on practice and continuous learning.
+My goal is to strengthen my understanding of AI concepts by learning, experimenting, building projects, and continuously improving my skills.
 
-## 📚 Topics Learned
+## 📚 Topics Covered
 
 ### 1. Python & Data Analysis
-- Python programming fundamentals and coding practice
-- NumPy and Pandas for data manipulation
-- Matplotlib and Seaborn for data visualization
+- Python programming fundamentals
+- NumPy and Pandas
+- Data cleaning and preprocessing
 - Exploratory Data Analysis (EDA)
+- Data visualization using Matplotlib and Seaborn
 - Working with CSV datasets
 
-### 2. Machine Learning (ML)
-- Introduction to Machine Learning
-- Supervised learning and model training
+### 2. Machine Learning
+- Supervised learning
 - Regression and classification
 - Data preprocessing and feature selection
-- Student performance prediction practice
+- Student performance prediction
 - Salary prediction
 - Insurance prediction
 - Placement prediction
 - Gold price prediction
+- Customer churn analysis
 
-### 3. Deep Learning (DL)
-- Fundamentals of Deep Learning
+### 3. Deep Learning
 - Artificial Neural Networks (ANN)
 - Neural network architecture and training
+- Deep learning fundamentals
 - Convolutional Neural Networks (CNN)
-- Introduction to computer vision
-- Image processing and feature extraction
+- Computer vision and image processing
+- Face detection experiments
 
-### 4. Generative AI & Transformers
-- Introduction to Generative AI
-- Understanding Large Language Models (LLMs)
-- Transformer-based architectures
-- Using pretrained models from Hugging Face
+### 4. Generative AI & Large Language Models
+- Generative AI fundamentals
+- Large Language Models (LLMs)
+- Transformer architectures
+- Hugging Face pretrained models
 - Tokenization and text generation
-- Exploring AI application development
+- Prompt engineering techniques
 
-### 5. Prompt Engineering
-- Fundamentals of prompt engineering
-- Writing clear and effective prompts
-- Providing context and instructions to AI models
-- Zero-shot and few-shot prompting
-- Role-based and structured-output prompting
-- Improving AI responses through prompt design
+### 5. AI Application Development
+- Building AI-powered applications
+- Interactive AI interfaces with Gradio
+- Text summarization
+- Language translation
+- Conversational AI and chatbots
+- Image caption generation
 
-### 6. AI Application Development
-- Building interactive AI applications
-- Working with Gradio
-- Integrating pretrained Hugging Face models
-- Exploring text generation and image captioning
-- Developing AI-powered conversational interfaces
-
-### 7. AI Agents & Workflow Automation
-- Introduction to AI agents
-- Exploring workflow automation with n8n
-- Understanding AI-powered automation use cases
-
-### 8. Retrieval-Augmented Generation (RAG)
+### 6. Retrieval-Augmented Generation (RAG)
 - Understanding the RAG pipeline
 - Document loading and text chunking
-- Generating text embeddings
-- Semantic search and vector databases
+- Text embeddings and semantic search
+- Vector databases
 - Retrieving relevant context for LLM responses
-- Grounding answers in retrieved documents
+- Grounding responses in retrieved documents
+
+### 7. Deployment & Responsible AI
+- AI application deployment concepts
+- Responsible AI principles
+- Exploring practical AI development workflows
+
+### 8. AI Agents & Workflow Automation
+- Introduction to AI agents
+- AI-powered workflow automation concepts
+- Exploring n8n and automation use cases
 
 ## 📂 Repository Structure
 
+The repository is organized by training day and project. Folder names and contents may evolve as I continue learning.
+
 ```text
 GenAI-Lab/
-├── Day 1/
-│   └── Python practice and dataset exploration
-├── Day 2/
-│   └── Data analysis and ML practice
-├── Day 3/
-│   └── Neural network experiments
-├── Day 4/
-│   └── Deep learning practice
-├── Day 5/
-│   └── Generative AI and prompt engineering
+├── Day 1 (05-10)/
+│   ├── Python practice notebooks
+│   └── Dataset exploration
+├── Day 2 (06-10)/
+│   ├── Machine learning notebooks
+│   ├── CSV datasets
+│   └── ML student material
+├── Day 3 (07-10)/
+│   ├── Neural network notebooks
+│   ├── ML experiments and datasets
+│   └── Deep learning student material
+├── Day 4 (08-10)/
+│   ├── CNN and computer vision notebooks
+│   ├── Image resources
+│   └── Transformer and LLM student material
+├── Dy 5 (12-10)/
+│   └── Summarization, translation, chatbot
+│       and image captioning notebooks
+├── Day 6 (13-10)/
+│   ├── Prompt engineering
+│   ├── RAG
+│   └── Deployment and Responsible AI
+├── Project/
+│   ├── AI-Chatbot/
+│   ├── AI-Language-Translator/
+│   ├── Imgae caption generation/
+│   └── Text summarization/
 ├── README.md
 └── .gitignore
 ```
 
-*The structure above is illustrative. The actual folders and filenames may differ as the repository evolves.*
+*Note: The structure reflects the current repository layout. Some folder names retain their original training-session spelling.*
 
-## 💻 Technologies & Tools
+## 🛠️ Technologies & Tools
 
 - **Programming:** Python
 - **Data Analysis:** NumPy, Pandas
@@ -98,29 +116,30 @@ GenAI-Lab/
 - **Machine Learning:** Scikit-learn
 - **Deep Learning:** TensorFlow/Keras
 - **Generative AI:** Hugging Face Transformers
-- **AI Interfaces:** Gradio
+- **AI Applications:** Jupyter Notebook, Google Colab, Gradio
+- **RAG:** Embeddings, semantic search, vector database concepts
 - **Workflow Automation:** n8n
-- **RAG Tools:** LangChain, Chroma, Hugging Face Embeddings
-- **Development Environments:** Jupyter Notebook, Google Colab
 - **Version Control:** Git and GitHub
+
+*Tools listed here represent the technologies explored or included in my learning journey; individual projects may use different subsets.*
 
 ## 🎯 Learning Objectives
 
-- Understand the fundamentals of Machine Learning, Deep Learning, and Generative AI.
+- Build a strong foundation in AI, ML, and Deep Learning.
 - Improve Python programming and data analysis skills.
-- Explore pretrained AI models and Transformer architectures.
-- Practice prompt engineering and AI agent concepts.
-- Understand document retrieval and RAG pipelines.
-- Build a strong foundation through hands-on exercises.
-- Track daily learning progress and document new concepts.
+- Explore pretrained models and Transformer architectures.
+- Practise prompt engineering and AI application development.
+- Understand RAG pipelines and document retrieval.
+- Build practical projects involving chatbots, translation, summarization, and image captioning.
+- Maintain an organized record of daily learning and experiments.
 
-## 📈 Learning Journey
+## 🌱 My Learning Journey
 
-This repository serves as a record of my continuous learning and experimentation. I use it to organize practice notebooks, explore datasets, test concepts, and document my progress.
+GenAI-Lab is a growing collection of my learning notes, practice exercises, datasets, and experiments. Each training session gives me an opportunity to understand new concepts and apply them through code.
 
-Standalone projects are maintained in their own repositories to keep this learning repository organized and easy to navigate.
+Some AI projects are also maintained in dedicated repositories to keep their source code and documentation organized.
 
-I believe in **learning by building, experimenting, and improving every day.** 🌱
+I believe in **learning by building, experimenting, and improving every day.** 🚀
 
 ---
 
