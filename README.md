@@ -1,28 +1,28 @@
 # 🧠 GenAI-Lab — Generative AI Learning & Practice
 
-Welcome to **GenAI-Lab**! 🚀
+Welcome to **GenAI-Lab!** 🚀
 
-This repository documents my daily learning journey in **Artificial Intelligence, Machine Learning, Deep Learning, and Generative AI**. It contains hands-on practice, Jupyter notebooks, datasets, experiments, and mini-projects completed during my training.
+This repository documents my learning journey in **Artificial Intelligence, Machine Learning, Deep Learning, and Generative AI**. It contains daily practice notebooks, coding exercises, dataset exploration, experiments, and notes from my training.
 
-My goal is to strengthen my understanding of AI concepts by implementing them through practical coding and real-world applications.
+My goal is to strengthen my understanding of AI concepts through hands-on practice and continuous learning.
 
 ## 📚 Topics Learned
 
 ### 1. Python & Data Analysis
-- Python programming fundamentals and practice
+- Python programming fundamentals and coding practice
 - NumPy and Pandas for data manipulation
 - Matplotlib and Seaborn for data visualization
 - Exploratory Data Analysis (EDA)
-- Working with datasets using CSV files
+- Working with CSV datasets
 
 ### 2. Machine Learning (ML)
 - Introduction to Machine Learning
 - Supervised learning and model training
 - Regression and classification
 - Data preprocessing and feature selection
-- Student performance prediction
+- Student performance prediction practice
 - Salary prediction
-- Insurance-related prediction
+- Insurance prediction
 - Placement prediction
 - Gold price prediction
 
@@ -37,81 +37,91 @@ My goal is to strengthen my understanding of AI concepts by implementing them th
 ### 4. Generative AI & Transformers
 - Introduction to Generative AI
 - Understanding Large Language Models (LLMs)
-- Transformer-based models
+- Transformer-based architectures
 - Using pretrained models from Hugging Face
 - Tokenization and text generation
-- Applying pretrained models to AI applications
+- Exploring AI application development
 
 ### 5. Prompt Engineering
 - Fundamentals of prompt engineering
 - Writing clear and effective prompts
 - Providing context and instructions to AI models
-- Improving AI responses through structured prompts
+- Zero-shot and few-shot prompting
+- Role-based and structured-output prompting
+- Improving AI responses through prompt design
 
 ### 6. AI Application Development
-- Building interactive applications with Gradio
+- Building interactive AI applications
+- Working with Gradio
 - Integrating pretrained Hugging Face models
-- Creating user-friendly interfaces for AI tools
-- Generating text and image descriptions
-- Implementing AI-powered conversational interfaces
-- Generating PDF output from an AI application
+- Exploring text generation and image captioning
+- Developing AI-powered conversational interfaces
 
-### 7. Generative AI & Workflow Automation
+### 7. AI Agents & Workflow Automation
 - Introduction to AI agents
-- Exploring automation with n8n
-- Understanding practical applications of AI-powered automation
+- Exploring workflow automation with n8n
+- Understanding AI-powered automation use cases
+
+### 8. Retrieval-Augmented Generation (RAG)
+- Understanding the RAG pipeline
+- Document loading and text chunking
+- Generating text embeddings
+- Semantic search and vector databases
+- Retrieving relevant context for LLM responses
+- Grounding answers in retrieved documents
 
 ## 📂 Repository Structure
 
 ```text
 GenAI-Lab/
 ├── Day 1/
-│   ├── Python practice
-│   └── Dataset exploration
+│   └── Python practice and dataset exploration
 ├── Day 2/
-│   ├── Student performance prediction
-│   ├── Insurance prediction
-│   └── Salary prediction
+│   └── Data analysis and ML practice
 ├── Day 3/
-│   ├── Neural network practice
-│   ├── ANN experiments
-│   └── Prediction projects
+│   └── Neural network experiments
 ├── Day 4/
-│   ├── CNN practice
-│   └── Deep learning experiments
+│   └── Deep learning practice
 ├── Day 5/
-│   ├── Text summarization
-│   ├── Language translation
-│   ├── Image captioning
-│   └── AI chatbot
-
+│   └── Generative AI and prompt engineering
+├── README.md
+└── .gitignore
 ```
 
-*The folder names above illustrate the organization; refer to the actual repository for the exact filenames and day-wise structure.*
+*The structure above is illustrative. The actual folders and filenames may differ as the repository evolves.*
 
 ## 💻 Technologies & Tools
 
-- **Language:** Python
-- **Libraries:** NumPy, Pandas, Matplotlib, Seaborn
-- **AI/ML:** Scikit-learn, TensorFlow/Keras
+- **Programming:** Python
+- **Data Analysis:** NumPy, Pandas
+- **Visualization:** Matplotlib, Seaborn
+- **Machine Learning:** Scikit-learn
+- **Deep Learning:** TensorFlow/Keras
 - **Generative AI:** Hugging Face Transformers
-- **Interface Development:** Gradio
-- **Automation:** n8n
-- **Environment:** Jupyter Notebook, Google Colab
+- **AI Interfaces:** Gradio
+- **Workflow Automation:** n8n
+- **RAG Tools:** LangChain, Chroma, Hugging Face Embeddings
+- **Development Environments:** Jupyter Notebook, Google Colab
 - **Version Control:** Git and GitHub
 
 ## 🎯 Learning Objectives
 
-- Understand the fundamentals of ML, DL, and Generative AI.
-- Develop practical skills through hands-on coding.
+- Understand the fundamentals of Machine Learning, Deep Learning, and Generative AI.
+- Improve Python programming and data analysis skills.
 - Explore pretrained AI models and Transformer architectures.
-- Build interactive AI-powered applications.
-- Improve Python programming and problem-solving skills.
-- Document daily progress and continuously expand my AI knowledge.
+- Practice prompt engineering and AI agent concepts.
+- Understand document retrieval and RAG pipelines.
+- Build a strong foundation through hands-on exercises.
+- Track daily learning progress and document new concepts.
 
 ## 📈 Learning Journey
 
-This repository is a continuous record of my learning process. It includes practice notebooks, experiments, datasets, and projects developed as I explore new concepts.
+This repository serves as a record of my continuous learning and experimentation. I use it to organize practice notebooks, explore datasets, test concepts, and document my progress.
+
+Standalone projects are maintained in their own repositories to keep this learning repository organized and easy to navigate.
 
 I believe in **learning by building, experimenting, and improving every day.** 🌱
 
+---
+
+⭐ If you find this learning journey useful, feel free to explore the repository and follow along!
