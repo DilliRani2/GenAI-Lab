@@ -1,0 +1,56 @@
+# STUDENT NOTES: RENEWABLE ENERGY
+
+## 1. What Is Renewable Energy?
+
+Renewable energy comes from natural sources that are replenished over time. Examples include sunlight, wind, flowing water, heat from the Earth, and organic materials.
+
+## 2. Types of Renewable Energy
+
+**Solar Energy:** Solar panels convert sunlight into electricity. Solar energy is used in homes, schools, offices, and streetlights. Its main limitation is that electricity generation depends on sunlight and weather.
+
+**Wind Energy:** Wind turbines use moving air to turn their blades. This movement drives a generator that produces electricity.
+
+**Hydropower:** Hydropower uses moving or falling water to generate electricity. Dams can store water and release it through turbines.
+
+**Geothermal Energy:** Geothermal energy uses heat from inside the Earth. It can provide heating and generate electricity in suitable locations.
+
+**Biomass Energy:** Biomass energy comes from organic materials such as crop waste, wood, and food waste. These materials can produce heat, electricity, or biofuels.
+
+## 3. Benefits of Renewable Energy
+
+- Reduces dependence on fossil fuels.
+- Can lower greenhouse gas emissions.
+- Uses naturally replenished resources.
+- Can improve energy access in remote areas.
+- Creates jobs in installation, construction, and maintenance.
+
+## 4. Challenges of Renewable Energy
+
+- Solar and wind generation depend on weather conditions.
+- Some projects require high initial investment.
+- Energy storage may be necessary.
+- Large projects can affect land, wildlife, and communities.
+- Different locations have different renewable energy resources.
+
+## 5. Why Is Energy Storage Important?
+
+Batteries store electricity when supply is high and release it when demand increases or generation decreases. Energy storage helps balance electricity supply and demand.
+
+## 6. Renewable Energy in Everyday Life
+
+Examples include rooftop solar panels, solar water heaters, wind farms, hydroelectric power stations, and biogas systems.
+
+## 7. Quick Revision Questions
+
+1. What is renewable energy?
+2. Name five renewable energy sources.
+3. How do solar panels produce electricity?
+4. How does a wind turbine generate electricity?
+5. State two benefits of renewable energy.
+6. Mention two challenges of renewable energy.
+7. Why is energy storage useful?
+8. Give two examples of renewable energy used in everyday life.
+
+## 8. Summary
+
+Renewable energy comes from naturally replenished sources such as sunlight, wind, water, geothermal heat, and biomass. It can reduce dependence on fossil fuels, but challenges include variable generation, initial costs, energy storage requirements, and environmental impacts.

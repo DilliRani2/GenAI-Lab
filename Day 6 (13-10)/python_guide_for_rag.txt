@@ -1,0 +1,113 @@
+Python Programming Guide for Beginners
+
+1. Variables
+Variables are used to store data in Python.
+A variable can store text, numbers, or other values.
+
+Example:
+name = "John"
+age = 20
+
+Here, name stores text and age stores a number.
+
+2. Data Types
+Python has different data types.
+
+Common data types:
+- int: stores whole numbers
+- float: stores decimal numbers
+- str: stores text
+- bool: stores True or False values
+
+Example:
+student_name = "Alex"
+mark = 85
+percentage = 89.5
+is_passed = True
+
+3. Lists
+A list is used to store multiple values in one variable.
+
+Example:
+fruits = ["apple", "banana", "cherry"]
+
+We can access list items using index numbers.
+
+Example:
+print(fruits[0])
+
+Output:
+apple
+
+4. Functions
+Functions are reusable blocks of code.
+A function helps us avoid writing the same code again and again.
+
+Example:
+def greet(name):
+    return "Hello " + name
+
+print(greet("John"))
+
+Output:
+Hello John
+
+5. Loops
+Loops are used to repeat code.
+
+Example:
+for i in range(5):
+    print(i)
+
+Output:
+0
+1
+2
+3
+4
+
+6. If Else Conditions
+If else statements are used to make decisions in Python.
+
+Example:
+age = 18
+
+if age >= 18:
+    print("Eligible to vote")
+else:
+    print("Not eligible to vote")
+
+7. Dictionaries
+A dictionary stores data in key-value pairs.
+
+Example:
+student = {
+    "name": "John",
+    "age": 20,
+    "course": "Python"
+}
+
+print(student["name"])
+
+Output:
+John
+
+8. Input Function
+The input function is used to get input from the user.
+
+Example:
+name = input("Enter your name: ")
+print("Hello", name)
+
+9. Comments
+Comments are used to explain code.
+Python ignores comments during execution.
+
+Example:
+# This is a comment
+print("Hello World")
+
+10. Summary
+Python is a beginner-friendly programming language.
+It is used in web development, data science, machine learning, automation, and artificial intelligence.
+Students should practice variables, data types, lists, functions, loops, conditions, and dictionaries to build a strong Python foundation.
